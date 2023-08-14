@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+   
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:#1abc9c
+  }
+
+  .title {
+    text-align: center;
+    margin-bottom: 60px; /* Add margin to separate from temperature container */
+    margin-top: 40px;
+    gap: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color:black;
+  }
+  
+  .temperature-container {
+    border: 2px solid #ea115d;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+  }
+  
+  .temperature-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  
+  .container {
+    max-width: 450px;
+    background: black;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.4);
+    font-family: sans-serif;
+    padding: 20px;
+  }
+  
+  
+  
+  .temperature-icon {
+    font-size: 45px;
+    color:black;
+    display: flex;
+    align-items: center;
+  }
+  
+  .celcius, .fahrenheit, .Kelvin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    
+  }
+
+  .celcius input,
+.fahrenheit input,
+.Kelvin input {
+  border: 2px solid #ea115d ;
+  color: black
+}
+
+.celcius input::placeholder,
+.fahrenheit input::placeholder,
+.Kelvin input::placeholder {
+  color: #000; /* Set placeholder color to black */
+}
+
+  
+  input {
+    flex: 5;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 8px 0 0 8px;
+    padding: 0 10px;
+  }
+  
+  /* Other input styling... */
+  
+  .icon {
+    flex: 1;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 5px;
+    text-align: center;
+    font-size: 30px;
+    background:  #f8a5c2;
+    color: #ea115d;
+    border-radius: 0 8px 8px 0;
+    border: 2px solid #ea115d; /* Adjusted border styling */
+  }
+  
+  .button {
+    margin-top: 25px;
+    text-align: center;
+  }
+  
+  .button button {
+    border: 2px solid #ea115d; /* Adjusted border styling */
+    outline: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #f53b57;
+  }
+  
+  .button button:hover {
+    background: #f8a5c2;
+    color: black;
+  }
+  
+  
